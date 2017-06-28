@@ -1,6 +1,6 @@
 {
-    "name": "codekanzlei/cake-cktools",
-    "description": "codekanzlei Tools & Utilities collection",
+    "name": "familynetgmbh/cake-cktools",
+    "description": "familynetgmbh Tools & Utilities collection",
     "license": "MIT",
     "type": "cakephp-plugin",
     "extra": {
