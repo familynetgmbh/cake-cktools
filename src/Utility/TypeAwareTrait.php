@@ -38,8 +38,10 @@ trait TypeAwareTrait
     * @param string $types types
      * @return array
      */
-    public static function getTypeMap($types)
+    public static function getTypeMap()
     {
+        $types = func_get_args();
+
         $map = [];
         foreach ($types as $type) {
             $map[$type] = self::getTypeDescription($type);
